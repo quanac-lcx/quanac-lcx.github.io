@@ -1,4 +1,4 @@
-name: build Gmeek
+name: build
 
 on:
   workflow_dispatch:
@@ -60,7 +60,7 @@ jobs:
           git config --local user.email "$(jq -r ".email" config.json)"
           git config --local user.name "${{ github.repository_owner }}"
           git add .
-          git commit -a -m '🎉auto update by Gmeek action' || echo "nothing to commit"
+          git commit -a -m '🎉Update' || echo "nothing to commit"
           git push || echo "nothing to push"
           sleep 3
           
