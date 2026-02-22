@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>quanac-lcx的文章</title><link>https://quanac-lcx.github.io</link><description>Ciallo～(∠・ω&lt; )⌒★</description><copyright>quanac-lcx的文章</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/quanac-lcx.png</url><title>avatar</title><link>https://quanac-lcx.github.io</link></image><lastBuildDate>Sun, 22 Feb 2026 03:38:42 +0000</lastBuildDate><managingEditor>quanac-lcx的文章</managingEditor><ttl>60</ttl><webMaster>quanac-lcx的文章</webMaster><item><title>我的Alist自定义头部配置</title><link>https://quanac-lcx.github.io/post/wo-de-Alist-zi-ding-yi-tou-bu-pei-zhi.html</link><description>效果：[hiac.me](https://hiac.me)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>quanac-lcx的文章</title><link>https://quanac-lcx.github.io</link><description>Ciallo～(∠・ω&lt; )⌒★</description><copyright>quanac-lcx的文章</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/quanac-lcx.png</url><title>avatar</title><link>https://quanac-lcx.github.io</link></image><lastBuildDate>Sun, 22 Feb 2026 03:51:29 +0000</lastBuildDate><managingEditor>quanac-lcx的文章</managingEditor><ttl>60</ttl><webMaster>quanac-lcx的文章</webMaster><item><title>我的Alist自定义头部配置</title><link>https://quanac-lcx.github.io/post/wo-de-Alist-zi-ding-yi-tou-bu-pei-zhi.html</link><description>效果：[hiac.me](https://hiac.me)
 ```css
 &lt;script src='https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll'&gt;&lt;/script&gt;
 
@@ -172,7 +172,7 @@
   }
 &lt;/style&gt;
 ```
-来源于互联网。</description><guid isPermaLink="true">https://quanac-lcx.github.io/post/wo-de-Alist-zi-ding-yi-tou-bu-pei-zhi.html</guid><pubDate>Sun, 22 Feb 2026 03:38:15 +0000</pubDate></item><item><title>旧版洛谷保存站API文档</title><link>https://quanac-lcx.github.io/post/jiu-ban-luo-gu-bao-cun-zhan-API-wen-dang.html</link><description>
+来源于互联网。</description><guid isPermaLink="true">https://quanac-lcx.github.io/post/wo-de-Alist-zi-ding-yi-tou-bu-pei-zhi.html</guid><pubDate>Sun, 22 Feb 2026 03:38:15 +0000</pubDate></item><item><title>旧版洛谷保存站API文档</title><link>https://quanac-lcx.github.io/post/jiu-ban-luo-gu-bao-cun-zhan-API-wen-dang.html</link><description>![](https://w.saobby.com/w/pwcoaejf)
 
 &gt; [!CAUTION]
 &gt;
