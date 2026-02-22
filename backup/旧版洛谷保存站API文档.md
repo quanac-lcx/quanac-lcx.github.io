@@ -8,7 +8,7 @@
 
 ## API 基础信息
 
-- **基础URL**: `http://www.luogu.me` (根据配置可能不同)
+- **基础URL**: `https://www.luogu.me` (根据配置可能不同)
 - **响应格式**: JSON，使用统一响应格式 `{ success: boolean, data?: any, message?: string }`
 - **认证**: 部分API需要登录（通过Token认证）
 
@@ -174,24 +174,24 @@
 
 ### 登录
 ```bash
-curl -X POST http://www.luogu.me/user/login \
+curl -X POST https://www.luogu.me/user/login \
   -H "Content-Type: application/json" \
   -d '{"token": "your_token_here"}'
 ```
 
 ### 获取统计信息
 ```bash
-curl http://www.luogu.me/api/statistic
+curl https://www.luogu.me/api/statistic
 ```
 
 ### 保存文章
 ```bash
-curl http://www.luogu.me/article/save/12345678
+curl https://www.luogu.me/article/save/12345678
 ```
 
 ### 查询任务状态
 ```bash
-curl "http://www.luogu.me/task/query?id=task_id_here"
+curl "https://www.luogu.me/task/query?id=task_id_here"
 ```
 
 ## 响应格式
@@ -231,6 +231,7 @@ curl "http://www.luogu.me/task/query?id=task_id_here"
 ## 更新日志
 
 - 2026-02-21: 创建API文档，基于项目代码分析
+- 2026-02-22: 将错误的 `http` 修改为 `https`
 
 ---
 

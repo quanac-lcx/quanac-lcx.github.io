@@ -98,7 +98,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>本文档列出了 <code class="notranslate">luogu-saver</code> 项目的所有API端点。项目基于Express.js构建，提供多种功能包括文章、剪贴板、用户信息保存、犇犇抓取、管理后台等。</p>
 <h2>API 基础信息</h2>
 <ul>
-<li><strong>基础URL</strong>: <code class="notranslate">http://www.luogu.me</code> (根据配置可能不同)</li>
+<li><strong>基础URL</strong>: <code class="notranslate">https://www.luogu.me</code> (根据配置可能不同)</li>
 <li><strong>响应格式</strong>: JSON，使用统一响应格式 <code class="notranslate">{ success: boolean, data?: any, message?: string }</code></li>
 <li><strong>认证</strong>: 部分API需要登录（通过Token认证）</li>
 </ul>
@@ -709,15 +709,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </table></markdown-accessiblity-table>
 <h2>请求示例</h2>
 <h3>登录</h3>
-<div class="highlight highlight-source-shell"><pre class="notranslate">curl -X POST http://www.luogu.me/user/login \
+<div class="highlight highlight-source-shell"><pre class="notranslate">curl -X POST https://www.luogu.me/user/login \
   -H <span class="pl-s"><span class="pl-pds">"</span>Content-Type: application/json<span class="pl-pds">"</span></span> \
   -d <span class="pl-s"><span class="pl-pds">'</span>{"token": "your_token_here"}<span class="pl-pds">'</span></span></pre></div>
 <h3>获取统计信息</h3>
-<div class="highlight highlight-source-shell"><pre class="notranslate">curl http://www.luogu.me/api/statistic</pre></div>
+<div class="highlight highlight-source-shell"><pre class="notranslate">curl https://www.luogu.me/api/statistic</pre></div>
 <h3>保存文章</h3>
-<div class="highlight highlight-source-shell"><pre class="notranslate">curl http://www.luogu.me/article/save/12345678</pre></div>
+<div class="highlight highlight-source-shell"><pre class="notranslate">curl https://www.luogu.me/article/save/12345678</pre></div>
 <h3>查询任务状态</h3>
-<div class="highlight highlight-source-shell"><pre class="notranslate">curl <span class="pl-s"><span class="pl-pds">"</span>http://www.luogu.me/task/query?id=task_id_here<span class="pl-pds">"</span></span></pre></div>
+<div class="highlight highlight-source-shell"><pre class="notranslate">curl <span class="pl-s"><span class="pl-pds">"</span>https://www.luogu.me/task/query?id=task_id_here<span class="pl-pds">"</span></span></pre></div>
 <h2>响应格式</h2>
 <p>所有JSON API都返回统一格式：</p>
 <div class="highlight highlight-source-json"><pre class="notranslate">{
@@ -746,6 +746,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>更新日志</h2>
 <ul>
 <li>2026-02-21: 创建API文档，基于项目代码分析</li>
+<li>2026-02-22: 将错误的 <code class="notranslate">http</code> 修改为 <code class="notranslate">https</code></li>
 </ul>
 <hr>
 <p><em>文档基于 <code class="notranslate">luogu-saver</code> 项目代码分析生成，实际API以代码为准。</em></p></div>
