@@ -1,17 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>quanac-lcx的文章</title><link>https://quanac-lcx.github.io</link><description>Ciallo～(∠・ω&lt; )⌒★</description><copyright>quanac-lcx的文章</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.com/quanac-lcx.png</url><title>avatar</title><link>https://quanac-lcx.github.io</link></image><lastBuildDate>Sun, 22 Feb 2026 03:38:42 +0000</lastBuildDate><managingEditor>quanac-lcx的文章</managingEditor><ttl>60</ttl><webMaster>quanac-lcx的文章</webMaster><item><title>我的Alist自定义头部配置</title><link>https://quanac-lcx.github.io/post/wo-de-Alist-zi-ding-yi-tou-bu-pei-zhi.html</link><description>效果：[hiac.me](https://hiac.me)
+效果：[hiac.me](https://hiac.me)
 ```css
-&lt;script src='https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll'&gt;&lt;/script&gt;
+<script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>
 
-&lt;!--评论系统使用的js--&gt;
-&lt;script src='https://unpkg.com/valine/dist/Valine.min.js'&gt;&lt;/script&gt;
+<!--评论系统使用的js-->
+<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
 
-&lt;!-- Font6，自定义底部使用和看板娘使用的图标和字体文件--&gt;
-&lt;link type='text/css' rel='stylesheet' href='https://npm.elemecdn.com/font6pro@6.3.0/css/fontawesome.min.css' media='all' /&gt;
-&lt;link href='https://npm.elemecdn.com/font6pro@6.3.0/css/all.min.css' rel='stylesheet' /&gt;
+<!-- Font6，自定义底部使用和看板娘使用的图标和字体文件-->
+<link type="text/css" rel="stylesheet" href="https://npm.elemecdn.com/font6pro@6.3.0/css/fontawesome.min.css" media="all" />
+<link href="https://npm.elemecdn.com/font6pro@6.3.0/css/all.min.css" rel="stylesheet" />
 
 
-&lt;style&gt;
+<style>
   /* 去除通知栏 右上角 X */
   .notify-render .hope-close-button {
     display: none;
@@ -29,16 +28,16 @@
     overflow: unset !important;
     }*/
   /* 缩略图图片变大 代码中的160px 自己改 现在是注释状态若需要自行解除注释 */
-  /*.obj-box &gt; div {
+  /*.obj-box > div {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr))
     }
-    .obj-box &gt; div .item-thumbnail{
+    .obj-box > div .item-thumbnail{
     height: 100px;
     }*/
 
   /*白天背景图*/
   .hope-ui-light {
-    background-image: url('https://resources.cn-sy1.rains3.com/openlist/wallpaper_minecraft_java_edition_2058x1440.webp') !important;
+    background-image: url("https://resources.cn-sy1.rains3.com/openlist/wallpaper_minecraft_java_edition_2058x1440.webp") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -46,7 +45,7 @@
   }
   /*夜间背景图*/
   .hope-ui-dark {
-    background-image: url('https://resources.cn-sy1.rains3.com/openlist/wallpaper_minecraft_java_edition_2058x1440.webp') !important;
+    background-image: url("https://resources.cn-sy1.rains3.com/openlist/wallpaper_minecraft_java_edition_2058x1440.webp") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -112,22 +111,22 @@
   }
 
   /*顶部*/
-  #root &gt; .header {
+  #root > .header {
     background: rgba(255, 255, 255, 0);
   }
   /*导航条*/
   /*白天模式*/
-  .hope-ui-light .body &gt; .nav {
+  .hope-ui-light .body > .nav {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: var(--hope-radii-xl);
   }
   /*夜间模式*/
-  .hope-ui-dark .body &gt; .nav {
+  .hope-ui-dark .body > .nav {
     background-color: rgb(0 0 0 / 50%);
     border-radius: var(--hope-radii-xl);
   }
   /*隐藏导航条遮罩*/
-  .body &gt; .nav::after {
+  .body > .nav::after {
     display: none;
   }
 
@@ -170,10 +169,6 @@
     left: 0;
     z-index: -999;
   }
-&lt;/style&gt;
+</style>
 ```
-来源于互联网。</description><guid isPermaLink="true">https://quanac-lcx.github.io/post/wo-de-Alist-zi-ding-yi-tou-bu-pei-zhi.html</guid><pubDate>Sun, 22 Feb 2026 03:38:15 +0000</pubDate></item><item><title>旧版洛谷保存站API文档</title><link>https://quanac-lcx.github.io/post/jiu-ban-luo-gu-bao-cun-zhan-API-wen-dang.html</link><description>
-
-&gt; [!CAUTION]
-&gt;
-&gt; AI生成。</description><guid isPermaLink="true">https://quanac-lcx.github.io/post/jiu-ban-luo-gu-bao-cun-zhan-API-wen-dang.html</guid><pubDate>Sat, 21 Feb 2026 12:49:03 +0000</pubDate></item></channel></rss>
+来源于互联网。
