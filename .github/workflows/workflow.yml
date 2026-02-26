@@ -3,7 +3,7 @@ name: build
 on:
   workflow_dispatch:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, closed]
   schedule:
     - cron: "0 16 * * *"
     
